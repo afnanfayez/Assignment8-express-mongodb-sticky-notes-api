@@ -9,7 +9,7 @@ This project implements a REST API with Node.js, Express, MongoDB, and Mongoose.
 3. Copy `.env.example` to `.env.development` and set `DB_URI`.
 4. Start the server: `npm run start:dev`.
 
-The API listens on `http://localhost:3000` and uses the `sticky_notes` database by default.
+The API listens on `http://localhost:3000` and connects to the database specified by `DB_URI`.
 
 ## Other solutions
 
