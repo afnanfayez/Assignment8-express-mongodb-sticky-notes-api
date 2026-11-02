@@ -1,6 +1,6 @@
 # Assignment 8 — Sticky Notes API
 
-This project implements a REST API with Node.js, Express, MongoDB, and Mongoose. It includes user and note operations, validation, ownership checks, and a Postman collection.
+This project implements a REST API with Node.js, Express, MongoDB, and Mongoose. It includes user and note operations, validation, and ownership checks.
 
 ## Run the API
 
@@ -13,5 +13,4 @@ The API listens on `http://localhost:3000` and connects to the database specifie
 
 ## Other solutions
 
-- `postman/Assignment8.postman_collection.json` contains API request examples.
 - `bonus.js` contains the longest common prefix exercise. Run it with `node bonus.js`.
