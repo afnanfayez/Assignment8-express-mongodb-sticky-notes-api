@@ -1,0 +1,17 @@
+{
+  "name": "assignment8-sticky-notes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Beginner-friendly Sticky Notes API for Assignment 8",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=development node --watch src/main.js",
+    "start:prod": "cross-env NODE_ENV=production node src/main.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
